@@ -1,4 +1,4 @@
-import CommonLayout from "@/component/layouts/CommonLayout"
+
 import { PricingCard } from "@/component/pricing/pricingCard"
 
 
@@ -43,8 +43,8 @@ export default function PricingPage() {
   ]
 
   return (
-    <div className="h-auto bg-[#CDFFFF]">
-      <CommonLayout>
+    <div className="h-full pb-8 pt-8 bg-[#CDFFFF] px-4 py-16 ">
+      
         <div className="mx-auto w-[100%] ">
           <div className="text-center mb-8">
             <h1 className="text-[48px] font-semibold mb-2 text-[#000] tracking-[-0.444px] leading-[64px]">
@@ -66,7 +66,7 @@ export default function PricingPage() {
             <PricingCard {...plans[2]} />
           </div>
         </div>
-      </CommonLayout>
+      
     </div>
   );
 }
