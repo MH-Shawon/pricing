@@ -189,12 +189,13 @@ export function PricingCard({
             padding: "8px 0",
             borderRadius: "6px",
             fontSize: "14px",
-            fontWeight: 500,
+            fontWeight: 600,
             textAlign: "center",
             backgroundColor: isFeatured ? "white" : "#006",
             color: isFeatured ? "#000066" : "white",
             border: "none",
             cursor: "pointer",
+           
           }}
         >
           Buy Now
